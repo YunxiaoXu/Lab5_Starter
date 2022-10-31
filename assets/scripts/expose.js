@@ -2,9 +2,9 @@
 
 window.addEventListener('DOMContentLoaded', init);
 
-const IMAGE_DIR = '/assets/images/';
-const AUDIO_DIR = '/assets/audio/';
-const ICON_DIR = '/assets/icons/';
+const IMAGE_DIR = 'assets/images/';
+const AUDIO_DIR = 'assets/audio/';
+const ICON_DIR = 'assets/icons/';
 
 const jsConfetti = new JSConfetti();
 

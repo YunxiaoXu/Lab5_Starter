@@ -27,8 +27,8 @@ function speakText(synth, voice, text, image) {
   if (voice !== "select") {
     utter.voice = synth.getVoices().find(v => v.voiceURI === voice);
   }
-  utter.onstart = _ => setImage(image, '/assets/images/smiling-open.png');
-  utter.onend = _ => setImage(image, '/assets/images/smiling.png');
+  utter.onstart = _ => setImage(image, 'assets/images/smiling-open.png');
+  utter.onend = _ => setImage(image, 'assets/images/smiling.png');
 
   synth.speak(utter);
 }
